@@ -1,0 +1,65 @@
+.User-card {
+  max-width: 900px;
+  margin: 30px auto;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  padding: 10px;
+}
+
+.User-card .alert {
+  margin-bottom: 0;
+}
+
+hr.User-card-delimeter {
+  size: 3;
+}
+
+.User-profile-img {
+  max-width: 200px;
+  float: right;
+}
+
+.User-friend-img {
+  max-width: 50px;
+}
+
+.User-profile-link {
+  float: right;
+  font-size: 3rem;
+  color: black;
+}
+
+a.User-profile-link {
+  float: right;
+  font-size: 3rem;
+  color: black;
+}
+
+.User-card-friends a.User-profile-link {
+  font-size: 2rem;
+}
+
+a.User-profile-link:hover {
+  color:dimgrey;
+}
+
+.User-card-friends-header {
+  margin-bottom: 20px;
+}
+
+.User-card-friends-row {
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .User-profile-img {
+    float: none;
+  }
+  
+  .User-profile-img-wrapper {
+    text-align: center;
+  }
+}
